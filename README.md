@@ -83,7 +83,7 @@ http://127.0.0.1:5000/stops
 
 Example (PowerShell):
 
-```powershell
+```powershell(Open a second terminal using the same virtual environment then run the below code)
 curl.exe -X POST http://127.0.0.1:5000/location -H "Content-Type: application/json" -d "{\"bus_id\":\"KL01AB1234\",\"lat\":11.0419,\"lon\":75.9279,\"timestamp\":\"2025-09-02T11:00:00\"}"
 ```
 
@@ -104,10 +104,12 @@ http://127.0.0.1:5000/bus/KL01AB1234
 
 ```
 Assignment/
+│--instance
+  │--bus.db
+│-- README.md
 │-- app.py
 │-- busStopData.json
 │-- requirements.txt
-│-- README.md
 ```
 
 ---
