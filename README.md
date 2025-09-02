@@ -1,8 +1,4 @@
-Perfect 👍 Let’s polish it into a **GitHub-optimized README.md** — clean formatting, badges, and a little more clarity for anyone who visits your repo.
 
-Here’s the improved version:
-
-````markdown
 # 🚌 Bus Tracking Flask App
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)  
